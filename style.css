@@ -1,0 +1,416 @@
+@media all {
+    body{
+        margin: 0;
+        padding:0;
+       
+    } 
+
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+header{
+    display: flex;
+   margin-right: 30px;
+   margin-left: 50px;
+   background-color: #fff0f6;
+   border-radius: 25px;
+
+    
+    
+}
+.headera{
+   width: 40%;
+   margin-left: 50px;
+   margin-top: 70px;
+}
+.headerb{
+    width:60%
+
+}
+.homeImage{
+    width: 70%;
+}
+.buttonorder{
+    padding: 20px 40px;
+    border-style: none;
+    background-color: yellow;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size:larger;
+}
+
+
+.popularfoods{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-evenly;
+  
+    
+}
+
+.popular{
+    margin-left: 350px;
+}
+.fruitdish{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin-left:50px ;
+}
+
+
+
+.fruitdishImage{
+    width: 90%;
+    height:50%;
+
+}
+.fruitdishdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+#fruitdishbutton{
+    width: 50%;
+}
+.fruitdish2{
+    display: flex;
+    flex-direction: column;
+}
+.fruitdish2Image{
+    width: 70%;
+    height:50%;
+}
+.fruitdish2details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.seafish{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.seafishImage{
+    width: 70%;
+    height:50%;
+}
+.seafishdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.pizza{
+    display: flex;
+    flex-direction: column;
+}
+.pizzaImage{
+    width: 90%;
+    height:50%;
+}
+.pizzadetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+.rating{
+    width: 40%;
+}
+.popularbutton{
+    padding: 20px 50px;
+    border-style:none;    
+    border-radius:30px;    
+    background-color: yellow;
+}
+
+
+
+
+
+.specialoffer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px ; 
+    margin-left: 20px;
+    background-color: #fff0f6;
+    border-radius: 25px;
+
+
+}
+.offerdetails{
+    margin-top: 90px;
+}
+
+.specialbuttonmenu{
+    padding: 20px 50px;
+    background-color:yellow;
+    border-radius: 20px;
+    border-style: none;
+}
+.specialspan{
+    padding: 5px 10px;
+    background-color: antiquewhite;
+}
+
+.specialbuttontop{
+    background-color: yellow;
+    border-style: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.offerdetails{
+    width: 30%;
+    margin-left:100px;
+
+}
+.offerImage{
+    margin-top: 60px;
+    
+}
+
+.headingsbestoffers{
+    margin-left: 300px;
+}
+.contentbestoffers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin: 40px 150px;
+        
+}
+.anydayoffers{
+    display: flex;
+    width: 30%;
+}
+.detailsanydayoffers{
+   
+}
+.burgerOfferImage{
+    margin: 0px;
+    width: 150px;
+}
+.otherflavors{
+    display: flex;
+    width: 30%;
+}
+
+.detailsotherflavors{
+
+}
+.flavoursOfferImage{
+    margin: 0px;
+    width: 150px;
+}
+.locationstore{ 
+    display: flex;
+    width: 30%;   
+}
+.detailslocationstore{
+
+}
+.locationOfferImage{
+    margin: 0px;
+    width: 150px;
+}
+
+
+.serviceMain{
+
+}
+.serviceHead{
+    margin-left: 300px;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    justify-content: baseline;
+}
+.restraunts{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    
+
+}
+.restrauntImage{
+    margin: 0px;
+    width: 150px;
+}
+.quality{ 
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+       
+}
+.qualityImage{
+    margin: 0px;
+    width: 185px;
+}
+
+.discount{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    
+}
+.discountImage{
+    margin: 0px;
+    width: 150px;
+}
+.delivery{
+    display: flex;
+    flex-direction: column;
+    width: 20%;        
+}
+.deliveryImage{
+    margin: 0px;
+    width: 150px;
+}
+
+
+.testimonials{
+    margin-left: 300px;
+    margin-right:150px;
+    width: 40%;
+    margin-bottom: 100px;
+}
+.testimonyhead{
+    margin-left: 40px;
+}
+.clienttestimony{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.clientquote{
+    width: 20%;
+    margin-left: 150px;
+}
+
+
+.testimonybutton1{
+    border-color: antiquewhite;
+    border-style: none;
+}
+.testimonybutton2{
+    background-color: yellow;
+    border-style: none;
+}
+.clientImages{
+    display: flex;
+    margin-left:-100px;
+    justify-content: space-around;
+    
+    
+}
+.clientImages1{
+    width:20%;
+    height: 30%;
+}
+.clientImages2{
+    width:20%;
+    height: 30%;
+}
+.clientImages3{
+    width:20%;
+    height: 30%;
+}
+.clientImages4{
+    width:20%;
+    height: 30%;
+}
+
+
+
+.app{
+    display: flex;
+    
+    background-color: #fff0f6;
+
+    
+}
+.appimage{
+    width:40%;
+    height: 400px;
+    margin-left: 70px;
+    margin-right: 100px;
+    
+}
+.apphead{
+    margin-left: 150px;
+    color: yellow;
+}
+.appdetail{
+    margin-left: 150px;
+    margin-right: 70px;
+}
+
+.newsletter{
+    display: flex;    
+    background-color: #fff0f6;
+
+}
+.newslettera{
+    margin: 30px 20px;
+    margin-left: 100px;        
+}
+.newsletterb{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+form{
+    background-color: antiquewhite;
+    
+    
+    }
+.formbutton{
+    background-color: yellow;
+    padding: 20px 40px;
+    border-style: none;
+    border-radius: 15px;
+}
+.spanformbutton{
+    padding: 5px 10px;
+    background-color: antiquewhite;
+}
+
+footer{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+}
+.footera{
+    width:30%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footerb{
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+}
+.copyright{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+}
+hr{
+    margin: 0px;
+}
+
+}
